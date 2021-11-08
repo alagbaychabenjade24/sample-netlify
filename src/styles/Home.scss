@@ -104,9 +104,14 @@
 	}
 
 	.lo {
-		width: 90%;
-		max-width: 1200px;
-		margin: 100px auto;
+		background-color: #f4f4f4;
+
+		&__content {
+			width: 90%;
+			max-width: 1200px;
+			padding: 50px 0;
+			margin: 100px auto;
+		}
 
 		h2 {
 			font-size: 35px;
@@ -408,7 +413,7 @@
 		#home {
 			.home__content {
 				h1 {
-					font-size: 50px;
+					font-size: 40px;
 				}
 			}
 		}

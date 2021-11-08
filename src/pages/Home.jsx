@@ -117,63 +117,65 @@ const Home = () => {
 			</section>
 
 			<section className='lo'>
-				<h2>
-					We're here to <br />
-					<span className='highlight'>exceed expectations</span>
-				</h2>
+				<div className='lo__content'>
+					<h2>
+						We're here to <br />
+						<span className='highlight'>exceed expectations</span>
+					</h2>
 
-				<divw className='offers'>
-					<div className='offer'>
-						<img
-							src={PerformBetterIcon}
-							alt='Perform Better | Better Support'
-						/>
+					<div className='offers'>
+						<div className='offer'>
+							<img
+								src={PerformBetterIcon}
+								alt='Perform Better | Better Support'
+							/>
 
-						<div>
-							<h3>Perform Better</h3>
+							<div>
+								<h3>Perform Better</h3>
 
-							<p>
-								Consistent performance is key to business
-								sustainability. We can either work directly in your
-								systems or if you want us to handle it all, we´ll be
-								happy to set it up.
-							</p>
+								<p>
+									Consistent performance is key to business
+									sustainability. We can either work directly in your
+									systems or if you want us to handle it all, we´ll be
+									happy to set it up.
+								</p>
+							</div>
+						</div>
+
+						<div className='offer'>
+							<img
+								src={ScaleFasterIcon}
+								alt='Scale Faster | Better Support'
+							/>
+
+							<div>
+								<h3>Scale Faster</h3>
+
+								<p>
+									Set up teams efficiently to meet business demands. We
+									innovate the hiring system by going digital to engage
+									talents.
+								</p>
+							</div>
+						</div>
+
+						<div className='offer'>
+							<img
+								src={CostSavingwIcon}
+								alt='Cost Saving | Better Support'
+							/>
+
+							<div>
+								<h3>Cost Saving</h3>
+
+								<p>
+									We are confident that we can lower your running costs
+									without compromising on quality.
+								</p>
+							</div>
 						</div>
 					</div>
-
-					<div className='offer'>
-						<img
-							src={ScaleFasterIcon}
-							alt='Scale Faster | Better Support'
-						/>
-
-						<div>
-							<h3>Scale Faster</h3>
-
-							<p>
-								Set up teams efficiently to meet business demands. We
-								innovate the hiring system by going digital to engage
-								talents.
-							</p>
-						</div>
-					</div>
-
-					<div className='offer'>
-						<img
-							src={CostSavingwIcon}
-							alt='Cost Saving | Better Support'
-						/>
-
-						<div>
-							<h3>Cost Saving</h3>
-
-							<p>
-								We are confident that we can lower your running costs
-								without compromising on quality.
-							</p>
-						</div>
-					</div>
-				</divw>
+				</div>
 			</section>
 
 			<section className='testimonials'>

@@ -48,20 +48,15 @@
 
 				&__image {
 					position: relative;
-
 					img {
 						border-radius: 5px 5px 0 0;
 						width: 100%;
 					}
-				}
-
-				&__bio {
-					text-align: center;
-					padding: 10px 20px 30px 20px;
 
 					.name {
-						// position: absolute;
-						bottom: 0;
+						position: absolute;
+						bottom: 20px;
+						left: 0;
 						color: white;
 						text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
 							0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
@@ -72,6 +67,11 @@
 							0 20px 20px rgba(0, 0, 0, 0.15);
 						padding: 0 20px;
 					}
+				}
+
+				&__bio {
+					text-align: center;
+					padding: 10px 20px 30px 20px;
 
 					h3 {
 						margin: 10px 0;

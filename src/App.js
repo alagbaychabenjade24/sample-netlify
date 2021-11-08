@@ -2,8 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router';
 
 import Home from './pages/Home';
-import Services from './pages/Services';
 import About from './pages/About';
+import Services from './pages/Services';
 import Contact from './pages/Contact';
 
 import Footer from './components/Footer';

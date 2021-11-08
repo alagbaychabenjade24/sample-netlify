@@ -57,11 +57,11 @@ const About = () => {
 									src='https://media-private.canva.com/SPNEI/MAEu8SSPNEI/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20211107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211107T140453Z&X-Amz-Expires=79077&X-Amz-Signature=a96bfb0060ffeddee4ce797ff5b1a37cfee00bed185d0c3b39893ef321ac60e9&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20Nov%202021%2012%3A02%3A50%20GMT'
 									alt='Member | Better Support'
 								/>
+
+								<h2 className='name'>PIOUS RIVERA</h2>
 							</div>
 
 							<div className='member__bio'>
-								<h2 className='name'>PIOUS RIVERA</h2>
-
 								<h3 className='position'>"Customer Service Captain"</h3>
 
 								<p>
@@ -102,11 +102,11 @@ const About = () => {
 									src='https://media-private.canva.com/SPNEI/MAEu8SSPNEI/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20211107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211107T140453Z&X-Amz-Expires=79077&X-Amz-Signature=a96bfb0060ffeddee4ce797ff5b1a37cfee00bed185d0c3b39893ef321ac60e9&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20Nov%202021%2012%3A02%3A50%20GMT'
 									alt='Member | Better Support'
 								/>
+
+								<h2 className='name'>PIOUS RIVERA</h2>
 							</div>
 
 							<div className='member__bio'>
-								<h2 className='name'>PIOUS RIVERA</h2>
-
 								<h3 className='position'>"Customer Service Captain"</h3>
 
 								<p>
@@ -147,11 +147,11 @@ const About = () => {
 									src='https://media-private.canva.com/SPNEI/MAEu8SSPNEI/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20211107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211107T140453Z&X-Amz-Expires=79077&X-Amz-Signature=a96bfb0060ffeddee4ce797ff5b1a37cfee00bed185d0c3b39893ef321ac60e9&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20Nov%202021%2012%3A02%3A50%20GMT'
 									alt='Member | Better Support'
 								/>
+
+								<h2 className='name'>PIOUS RIVERA</h2>
 							</div>
 
 							<div className='member__bio'>
-								<h2 className='name'>PIOUS RIVERA</h2>
-
 								<h3 className='position'>"Customer Service Captain"</h3>
 
 								<p>
@@ -192,11 +192,11 @@ const About = () => {
 									src='https://media-private.canva.com/SPNEI/MAEu8SSPNEI/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20211107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211107T140453Z&X-Amz-Expires=79077&X-Amz-Signature=a96bfb0060ffeddee4ce797ff5b1a37cfee00bed185d0c3b39893ef321ac60e9&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20Nov%202021%2012%3A02%3A50%20GMT'
 									alt='Member | Better Support'
 								/>
+
+								<h2 className='name'>PIOUS RIVERA</h2>
 							</div>
 
 							<div className='member__bio'>
-								<h2 className='name'>PIOUS RIVERA</h2>
-
 								<h3 className='position'>"Customer Service Captain"</h3>
 
 								<p>
