@@ -4,6 +4,12 @@ import { Helmet } from 'react-helmet';
 
 import '../styles/Services.scss';
 
+import CustomerServiceIcon from '../icons/customer-service-better-support.svg';
+import VirtualAssistantIcon from '../icons/virtual-assistant-better-support.svg';
+import ContentWritingIcon from '../icons/content-writing-better-support.svg';
+import DigitalMarketingIcon from '../icons/digital-marketing-better-support.svg';
+import ContentManagementIcon from '../icons/content-management-better-support.svg';
+
 import { RiSettings3Fill } from 'react-icons/ri';
 
 const Services = () => {
@@ -20,7 +26,7 @@ const Services = () => {
 					</h1>
 				</div>
 
-				<div className='x'>
+				<div className='services__subheading'>
 					<h2>Our Advantage</h2>
 
 					<h3>
@@ -56,6 +62,11 @@ const Services = () => {
 
 				<div className='service'>
 					<div className='service__heading customer__service'>
+						<img
+							src={CustomerServiceIcon}
+							alt='Customer Service | Better Support'
+						/>
+
 						<div className='service__heading__content'>
 							<h2>Customer Service</h2>
 
@@ -74,15 +85,14 @@ const Services = () => {
 					</div>
 
 					<div className='summaries'>
-						<div className='grey'>
+						<div className='blue'>
 							<p>
 								The Philippines is the leader of great customer service,
 								so it is not a coincidence that some of the world’s best
 								customer service departments are outsourced to the
-								Philippines which employs over 1 million people. Aside
-								from having an attractive price point, English is an
-								official language, and Filipinos are known for having
-								excellent work ethic.
+								Philippines. Aside from having an attractive price
+								point, English is an official language, and Filipinos
+								are known for having excellent work ethic.
 							</p>
 
 							<p>
@@ -93,15 +103,15 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='blue'>
+						<div className='grey'>
 							<p>
-								Better Support has long experience in handling live
-								chat-, email-, and phone support, and our agents have a
-								strong background in the industry. Whether you're
-								looking for an additional agent to your existing team or
-								want us to manage all of it, we have the expertise to
-								help you. Want to be part of the recruitment process and
-								have the final say? No worries.
+								Better Support has long experience of handling live
+								chat-, email-, and phone support, and our agents have an
+								attested background in the industry. No matter if you
+								are looking for one agent as an addition to your already
+								existing team, or us to manage all of it, we have the
+								expertise to help you. Want to be part of the
+								recruitment process and have the final say? No worries.
 							</p>
 
 							<p>
@@ -114,6 +124,11 @@ const Services = () => {
 
 				<div className='service'>
 					<div className='service__heading digital__marketing'>
+						<img
+							src={VirtualAssistantIcon}
+							alt='Virtual Assistant | Better Support'
+						/>
+
 						<div className='service__heading__content'>
 							<h2>Digital Marketing</h2>
 
@@ -134,7 +149,7 @@ const Services = () => {
 					</div>
 
 					<div className='summaries'>
-						<div className='grey'>
+						<div className='blue'>
 							<p>
 								Just like how Better Support is a workplace using the
 								latest technologies, we like to offer the newest in
@@ -145,7 +160,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='blue'>
+						<div className='grey'>
 							<p>
 								We have helped various companies with their Digital
 								Marketing needs. We have provided support not only on a
@@ -158,6 +173,11 @@ const Services = () => {
 
 				<div className='service'>
 					<div className='service__heading content__writing'>
+						<img
+							src={ContentWritingIcon}
+							alt='Content Writing | Better Support'
+						/>
+
 						<div className='service__heading__content'>
 							<h2>Content Writing</h2>
 
@@ -179,23 +199,23 @@ const Services = () => {
 					</div>
 
 					<div className='summaries'>
-						<div className='grey'>
-							<p>
-								Content Writing as an industry is growing at an insane
-								pace and is estimated to be a $400 billion dollar
-								industry. Content is King and that is why we put a lot
-								of love & effort into producing world-class content.{' '}
-							</p>
-						</div>
-
 						<div className='blue'>
 							<p>
+								Content Writing, estimated to be a $400 billion dollar
+								industry, is insanely growing. Content is King and that
+								is why we put effort into producing world-class content.
 								The Philippines, with its creative and English-speaking
 								population, is an ideal country for providing great
 								content, so we are confident that we can provide you
-								with outstanding results. Perhaps you only need someone
-								on a part-time basis, or you need content about a very
-								niched product/service? We've got you covered.
+								with outstanding results.
+							</p>
+						</div>
+
+						<div className='grey'>
+							<p>
+								Perhaps you only need someone on a part-time basis, or
+								you need content about a very niched product/service?
+								We've got you covered.
 							</p>
 
 							<p>
@@ -208,6 +228,11 @@ const Services = () => {
 
 				<div className='service'>
 					<div className='service__heading virtual__assistant'>
+						<img
+							src={DigitalMarketingIcon}
+							alt='Digital Marketing | Better Support'
+						/>
+
 						<div className='service__heading__content'>
 							<h2>Virtual Assistant</h2>
 
@@ -233,7 +258,7 @@ const Services = () => {
 					</div>
 
 					<div className='summaries'>
-						<div className='grey'>
+						<div className='blue'>
 							<p>
 								Virtual assistants are the Swiss Army Knife solution
 								when you need help with more than one particular
@@ -243,7 +268,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='blue'>
+						<div className='grey'>
 							<p>
 								Perhaps you have felt that there are job tasks that you
 								don't always have time for? In many cases, businesses
@@ -262,6 +287,11 @@ const Services = () => {
 
 				<div className='service'>
 					<div className='service__heading content__management'>
+						<img
+							src={ContentManagementIcon}
+							alt='Content Management | Better Support'
+						/>
+
 						<div className='service__heading__content'>
 							<h2>Content Management</h2>
 
@@ -281,7 +311,7 @@ const Services = () => {
 					</div>
 
 					<div className='summaries'>
-						<div className='grey'>
+						<div className='blue'>
 							<p>
 								Content and data management are essential processes for
 								many businesses, but they are often time-consuming. This
@@ -289,7 +319,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='blue'>
+						<div className='grey'>
 							<p>
 								We understand the importance of treating your data with
 								sensitivity and caution, and you can rest assured that

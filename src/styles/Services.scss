@@ -1,20 +1,21 @@
 .services {
-	.x {
+	&__subheading {
 		width: 90%;
 		max-width: 1200px;
 		margin: 50px auto;
 
 		h2 {
-			font-size: 35px;
+			font-size: 40px;
 			color: #0185d0;
 		}
 
 		h3 {
-			font-size: 20px;
+			font-size: 25px;
 			margin: 10px 0;
 		}
 
 		p {
+			font-size: 18px;
 			font-weight: 500;
 			line-height: 1.5;
 
@@ -25,42 +26,26 @@
 	}
 
 	.service {
-		.customer__service {
-			background-image: url('../images/customer-service-better-support.webp');
-		}
-
-		.digital__marketing {
-			background-image: url('../images/digital-marketing-better-support.webp');
-		}
-
-		.content__writing {
-			background-image: url('../images/content-writing-better-support.webp');
-		}
-
-		.virtual__assistant {
-			background-image: url('../images/virtual-assistant-better-support.webp');
-		}
-
-		.content__management {
-			background-image: url('../images/content-management-better-support.webp');
-		}
+		width: 90%;
+		max-width: 1200px;
+		margin: 0 auto;
 
 		.service__heading {
-			background-size: cover;
-			background-position: top center;
-			background-repeat: no-repeat;
 			display: flex;
-			align-items: center;
-			height: 300px;
+			align-items: flex-start;
+			border: 3px solid #0185d0;
+			border-radius: 5px;
+			padding: 20px;
+
+			img {
+				width: 100px;
+				margin-right: 30px;
+			}
 
 			&__content {
-				color: white;
-				width: 90%;
-				max-width: 1200px;
-				margin: 0 auto;
-
 				h2 {
 					font-size: 35px;
+					color: #0185d0;
 				}
 
 				h3 {
@@ -80,19 +65,21 @@
 		}
 
 		.summaries {
-			width: 90%;
-			max-width: 1200px;
-			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 30px;
+			margin: 20px 0 50px;
 
 			.grey {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				background-color: #d9d9d9;
 				border-radius: 5px;
 				padding: 20px;
-				width: 100%;
-				max-width: 800px;
-				margin: 30px auto 30px 0;
 
 				p {
+					font-size: 18px;
 					font-weight: 500;
 					line-height: 1.5;
 
@@ -103,14 +90,15 @@
 			}
 
 			.blue {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				background-color: #0185d0;
 				border-radius: 5px;
 				padding: 20px;
-				width: 100%;
-				max-width: 800px;
-				margin: 30px 0 30px auto;
 
 				p {
+					font-size: 18px;
 					font-weight: 500;
 					color: white;
 					line-height: 1.5;
@@ -141,27 +129,11 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 	.services {
 		.service {
-			.service__heading {
-				height: 250px;
-
-				&__content {
-					h2 {
-						font-size: 30px;
-					}
-
-					h3 {
-						font-size: 18px;
-					}
-
-					ul {
-						li {
-							font-size: 16px;
-						}
-					}
-				}
+			.summaries {
+				grid-template-columns: 1fr;
 			}
 		}
 	}

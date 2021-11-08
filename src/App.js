@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router';
 
 import Home from './pages/Home';
 import Services from './pages/Services';
+import About from './pages/About';
 import Contact from './pages/Contact';
 
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/better-services' element={<Services />} />
+				<Route path='/why-us' element={<About />} />
 				<Route path='/contact' element={<Contact />} />
 			</Routes>
 

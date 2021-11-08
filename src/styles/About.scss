@@ -1,0 +1,117 @@
+.about {
+	&__subheading {
+		background-color: #0185d0;
+		border-radius: 5px;
+		width: 90%;
+		max-width: 1200px;
+		padding: 30px;
+		margin: 50px auto;
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			color: white;
+
+			&:nth-of-type(2) {
+				margin: 15px 0;
+			}
+		}
+	}
+
+	.team {
+		width: 90%;
+		max-width: 1200px;
+		margin: 0 auto;
+
+		h2 {
+			font-size: 35px;
+			text-align: center;
+		}
+
+		.divider {
+			background-color: #a6a6a616;
+			height: 3px;
+			width: 100%;
+			max-width: 400px;
+			margin: 10px auto 30px;
+		}
+
+		.members {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 50px;
+			margin-bottom: 100px;
+
+			.member {
+				background-color: #f4f4f4;
+				border-radius: 5px;
+
+				&__image {
+					position: relative;
+
+					img {
+						border-radius: 5px 5px 0 0;
+						width: 100%;
+					}
+				}
+
+				&__bio {
+					text-align: center;
+					padding: 10px 20px 30px 20px;
+
+					.name {
+						// position: absolute;
+						bottom: 0;
+						color: white;
+						text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+							0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+							0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+							0 3px 5px rgba(0, 0, 0, 0.2),
+							0 5px 10px rgba(0, 0, 0, 0.25),
+							0 10px 10px rgba(0, 0, 0, 0.2),
+							0 20px 20px rgba(0, 0, 0, 0.15);
+						padding: 0 20px;
+					}
+
+					h3 {
+						margin: 10px 0;
+					}
+
+					p {
+						font-weight: 500;
+						line-height: 1.5;
+					}
+
+					ul {
+						li {
+							font-weight: 500;
+							text-align: start;
+							line-height: 1.5;
+							list-style-position: inside;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.about {
+		.team {
+			.members {
+				grid-gap: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about {
+		.team {
+			.members {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+}
