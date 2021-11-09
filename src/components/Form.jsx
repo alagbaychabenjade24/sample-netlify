@@ -5,6 +5,8 @@ import '../styles/Form.scss';
 
 import { MdSettings } from 'react-icons/md';
 
+import CogWheelIcon from '../icons/cogwheel-better-support.svg';
+
 const Form = () => {
 	const sendEmail = event => {
 		event.preventDefault();
@@ -41,6 +43,8 @@ const Form = () => {
 
 			<form onSubmit={sendEmail}>
 				<div className='services'>
+					<img src={CogWheelIcon} alt='Cogwheel | Better Support' />
+
 					<h3>Service you need</h3>
 
 					<div className='col'>

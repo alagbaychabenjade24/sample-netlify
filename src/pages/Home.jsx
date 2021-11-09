@@ -11,10 +11,14 @@ import ContentWritingIcon from '../icons/content-writing-better-support.svg';
 import DigitalMarketingIcon from '../icons/digital-marketing-better-support.svg';
 import ContentManagementIcon from '../icons/content-management-better-support.svg';
 import PerformBetterIcon from '../icons/perform-better-better-support.svg';
+import PerformBetterHoverIcon from '../icons/perform-better-hover-better-support.webp';
 import ScaleFasterIcon from '../icons/scale-faster-better-support.svg';
-import CostSavingwIcon from '../icons/cost-saving-better-support.svg';
+import ScaleFasterHoverIcon from '../icons/scale-faster-hover-better-support.webp';
+import CostSavingIcon from '../icons/cost-saving-better-support.svg';
 import PetliClientLogo from '../icons/petli-better-support.png';
 import PacClientLogo from '../icons/pac-better-support.jpg';
+import QuotationIcon from '../icons/quotation-better-support.svg';
+import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 
 import { MdSettings } from 'react-icons/md';
 
@@ -36,12 +40,81 @@ const Home = () => {
 
 			<section className='sa'>
 				<div className='sa__content'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='sa__cogwheel-1'
+					/>
+
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='sa__cogwheel-2'
+					/>
+
 					<h3>
 						<span className='highlight'>Better</span> business with Better
 						Support
 					</h3>
 
 					<h2 className='highlight'>Better Services</h2>
+
+					<div className='sa__services'>
+						<div className='sa__service'>
+							<img
+								src={CustomerServiceIcon}
+								alt='Customer Service | Better Support'
+							/>
+
+							<h3>
+								Customer <br /> Service
+							</h3>
+						</div>
+
+						<div className='sa__service'>
+							<img
+								src={VirtualAssistantIcon}
+								alt='Virtual Assistant | Better Support'
+							/>
+
+							<h3>
+								Virtual <br /> Assistant
+							</h3>
+						</div>
+
+						<div className='sa__service'>
+							<img
+								src={ContentWritingIcon}
+								alt='Content Writing | Better Support'
+							/>
+
+							<h3>
+								Content <br /> Writing
+							</h3>
+						</div>
+
+						<div className='sa__service'>
+							<img
+								src={DigitalMarketingIcon}
+								alt='Digital Marketing | Better Support'
+							/>
+
+							<h3>
+								Digital <br /> Marketing
+							</h3>
+						</div>
+
+						<div className='sa__service'>
+							<img
+								src={ContentManagementIcon}
+								alt='Content Management | Better Support'
+							/>
+
+							<h3>
+								Content <br /> Management
+							</h3>
+						</div>
+					</div>
 
 					<p>
 						Finding quality outsourcing support services is hard. We get
@@ -57,67 +130,22 @@ const Home = () => {
 						Shoot!
 					</Link>
 				</div>
-
-				<div className='sa__services'>
-					<div className='sa__service'>
-						<img
-							src={CustomerServiceIcon}
-							alt='Customer Service | Better Support'
-						/>
-
-						<h3>
-							Customer <br /> Service
-						</h3>
-					</div>
-
-					<div className='sa__service'>
-						<img
-							src={VirtualAssistantIcon}
-							alt='Virtual Assistant | Better Support'
-						/>
-
-						<h3>
-							Virtual <br /> Assistant
-						</h3>
-					</div>
-
-					<div className='sa__service'>
-						<img
-							src={ContentWritingIcon}
-							alt='Content Writing | Better Support'
-						/>
-
-						<h3>
-							Content <br /> Writing
-						</h3>
-					</div>
-
-					<div className='sa__service'>
-						<img
-							src={DigitalMarketingIcon}
-							alt='Digital Marketing | Better Support'
-						/>
-
-						<h3>
-							Digital <br /> Marketing
-						</h3>
-					</div>
-
-					<div className='sa__service'>
-						<img
-							src={ContentManagementIcon}
-							alt='Content Management | Better Support'
-						/>
-
-						<h3>
-							Content <br /> Management
-						</h3>
-					</div>
-				</div>
 			</section>
 
 			<section className='lo'>
 				<div className='lo__content'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='lo__cogwheel-1'
+					/>
+
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='lo__cogwheel-2'
+					/>
+
 					<h2>
 						We're here to <br />
 						<span className='highlight'>exceed expectations</span>
@@ -127,6 +155,11 @@ const Home = () => {
 						<div className='offer'>
 							<img
 								src={PerformBetterIcon}
+								alt='Perform Better | Better Support'
+							/>
+
+							<img
+								src={PerformBetterHoverIcon}
 								alt='Perform Better | Better Support'
 							/>
 
@@ -148,6 +181,11 @@ const Home = () => {
 								alt='Scale Faster | Better Support'
 							/>
 
+							<img
+								src={ScaleFasterHoverIcon}
+								alt='Scale Faster | Better Support'
+							/>
+
 							<div>
 								<h3>Scale Faster</h3>
 
@@ -161,7 +199,7 @@ const Home = () => {
 
 						<div className='offer'>
 							<img
-								src={CostSavingwIcon}
+								src={CostSavingIcon}
 								alt='Cost Saving | Better Support'
 							/>
 
@@ -180,23 +218,32 @@ const Home = () => {
 
 			<section className='testimonials'>
 				<div>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='testimonial__cogwheel-1'
+					/>
+
 					<h2>
 						<span className='highlight'>Better</span> Results
 					</h2>
 
 					<p>
 						We're confident that we can give you something better and our
-						satisfied clients think so too.
-					</p>
-
-					<p>
-						After all, the goal here is to make YOUR business better. And
-						better for you is better for us.{' '}
+						satisfied clients think so too. After all, the goal here is to
+						make YOUR business better. And better for you is better for
+						us.
 					</p>
 				</div>
 
-				<div>
+				<div className='testimonial__group'>
 					<div className='testimonial'>
+						<img
+							src={QuotationIcon}
+							alt='Quotation | Better Support'
+							className='quotation'
+						/>
+
 						<p>
 							Better Support provides quality service and their
 							flexibility is important for a startup such as Petli. We
@@ -211,9 +258,21 @@ const Home = () => {
 								alt='Testimonial Client Logo | Better Support'
 							/>
 						</div>
+
+						<img
+							src={CogWheelIcon}
+							alt='Cogwheel | Better Support'
+							className='testimonial__cogwheel-2'
+						/>
 					</div>
 
 					<div className='testimonial'>
+						<img
+							src={QuotationIcon}
+							alt='Quotation | Better Support'
+							className='quotation'
+						/>
+
 						<p>
 							Working with Better Support has really made a difference in
 							how we run our business. Power Aware Company asked for
@@ -241,6 +300,8 @@ const Home = () => {
 			</aside>
 
 			<section className='hi'>
+				<img src={CogWheelIcon} alt='Cogwheel | Better Support' />
+
 				<div>
 					<p>
 						Founded in 2021, Better Support aims to provide premium
