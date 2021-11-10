@@ -57,7 +57,7 @@ const Home = () => {
 						Support
 					</h3>
 
-					<h2 className='highlight'>Better Services</h2>
+					<h2 className='section__title highlight'>Better Services</h2>
 
 					<div className='sa__services'>
 						<div className='sa__service'>
@@ -146,7 +146,7 @@ const Home = () => {
 						className='lo__cogwheel-2'
 					/>
 
-					<h2>
+					<h2 className='section__title'>
 						We're here to <br />
 						<span className='highlight'>exceed expectations</span>
 					</h2>
@@ -224,7 +224,7 @@ const Home = () => {
 						className='testimonial__cogwheel-1'
 					/>
 
-					<h2>
+					<h2 className='section__title'>
 						<span className='highlight'>Better</span> Results
 					</h2>
 
@@ -293,7 +293,7 @@ const Home = () => {
 			</section>
 
 			<aside>
-				<h2>
+				<h2 className='section__title'>
 					See how you can grow <br />{' '}
 					<span className='highlight'>Better with us</span>
 				</h2>

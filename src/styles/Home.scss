@@ -60,7 +60,6 @@
 			}
 
 			h2 {
-				font-size: 35px;
 				margin: 5px 0 0;
 			}
 
@@ -151,7 +150,6 @@
 		}
 
 		h2 {
-			font-size: 35px;
 			text-align: center;
 			margin-bottom: 50px;
 		}
@@ -213,10 +211,12 @@
 
 				div {
 					h3 {
+						font-size: 22px;
 						margin-bottom: 10px;
 					}
 
 					p {
+						font-size: 18px;
 						font-weight: 500;
 						line-height: 1.5;
 						max-width: 400px;
@@ -244,12 +244,11 @@
 			}
 
 			h2 {
-				font-size: 35px;
 				margin-bottom: 30px;
 			}
 
 			p {
-				font-size: 18px;
+				font-size: 20px;
 				font-weight: 500;
 				line-height: 1.5;
 				width: 100%;
@@ -327,7 +326,6 @@
 		margin: 0 auto;
 
 		h2 {
-			font-size: 35px;
 			text-align: center;
 			margin: 50px 0;
 		}
@@ -363,11 +361,11 @@
 
 		div {
 			p {
-				font-size: 18px;
+				font-size: 20px;
 				font-weight: 500;
 				line-height: 1.5;
 				width: 100%;
-				max-width: 700px;
+				max-width: 800px;
 
 				&:nth-of-type(2) {
 					margin: 15px 0;
@@ -390,6 +388,13 @@
 				svg {
 					font-size: 20px;
 					margin-right: 5px;
+					transition: 0.5s ease-in-out;
+				}
+
+				&:hover {
+					svg {
+						transform: rotate(360deg);
+					}
 				}
 			}
 		}

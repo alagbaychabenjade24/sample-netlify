@@ -41,6 +41,7 @@ form {
 			top: -40px;
 			left: -140px;
 			width: 100%;
+			z-index: -9;
 		}
 
 		h3 {
@@ -54,8 +55,12 @@ form {
 			line-height: 1.5;
 
 			input {
-				margin-right: 5px;
+				margin-right: 8px;
 				cursor: pointer;
+			}
+
+			label {
+				font-size: 18px;
 			}
 		}
 	}
@@ -83,7 +88,7 @@ form {
 		button {
 			display: flex;
 			align-items: center;
-			font-size: 14px;
+			font-size: 16px;
 			font-weight: 700;
 			color: white;
 			background-color: #0185d0;
@@ -95,6 +100,13 @@ form {
 			svg {
 				font-size: 20px;
 				margin-right: 5px;
+				transition: 0.5s ease-in-out;
+			}
+
+			&:hover {
+				svg {
+					transform: rotate(360deg);
+				}
 			}
 		}
 	}

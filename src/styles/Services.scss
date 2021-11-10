@@ -80,7 +80,10 @@
 			align-items: flex-start;
 			border: 3px solid #0185d0;
 			border-radius: 5px;
+			width: 100%;
+			max-width: max-content;
 			padding: 20px;
+			margin: 0 auto;
 
 			img {
 				width: 100px;
@@ -196,11 +199,40 @@
 		.service {
 			.service__heading {
 				display: block;
+				max-width: 100%;
 
 				img {
 					margin-right: 0;
 					margin-bottom: 10px;
 				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.services {
+		.service {
+			.services__cogwheel-2 {
+				width: 60%;
+			}
+
+			.services__cogwheel-3 {
+				width: 100%;
+			}
+
+			.services__cogwheel-4 {
+				width: 65%;
+			}
+
+			.services__cogwheel-5 {
+				width: 80%;
+			}
+
+			.services__cogwheel-6 {
+				left: 15%;
+				bottom: 0;
+				width: 90%;
 			}
 		}
 	}

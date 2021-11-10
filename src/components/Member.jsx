@@ -4,6 +4,8 @@ import MyraferBertulfoProfile from '../images/myrafer-bertulfo-better-support.we
 import PiousRiveraProfile from '../images/pious-rivera-better-support.webp';
 import ChedelynTabalbaProfile from '../images/chedelyn-tabalba-better-support.webp';
 import EloisaTurlaProfile from '../images/eloisa-turla-better-support.webp';
+import RobertLeeProfile from '../images/robert-lee-better-support.webp';
+
 import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 
 const Member = () => {
@@ -134,7 +136,7 @@ const Member = () => {
 
 			<div className='member'>
 				<div className='member__image'>
-					<img src='' alt='Member | Better Support' />
+					<img src={RobertLeeProfile} alt='Member | Better Support' />
 
 					<h2 className='name'>Robert lee</h2>
 				</div>
