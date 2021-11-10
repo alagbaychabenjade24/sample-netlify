@@ -15,9 +15,9 @@ const Navigation = () => {
 	const showMenu = () => {
 		setMenu(true);
 		setDp(true);
-
-		window.scrollTo(0, 0);
 	};
+
+	const scrollTop = () => window.scrollTo(0, 0);
 
 	const closeMenu = () => {
 		setMenu(false);
@@ -27,7 +27,13 @@ const Navigation = () => {
 	return (
 		<header>
 			<nav>
-				<div className='nav__logo'>
+				<div
+					className='nav__logo'
+					onClick={() => {
+						closeMenu();
+						scrollTop();
+					}}
+				>
 					<Link to='/'>
 						<img src={BetterSupportLogo} alt='Better Support' />
 					</Link>
@@ -37,25 +43,50 @@ const Navigation = () => {
 					className={menu ? 'nav__links nav__links--active' : 'nav__links'}
 				>
 					<li>
-						<Link to='/' onClick={closeMenu}>
+						<Link
+							to='/'
+							onClick={() => {
+								closeMenu();
+								scrollTop();
+							}}
+						>
 							Home
 						</Link>
 					</li>
 
 					<li>
-						<Link to='/better-services' onClick={closeMenu}>
+						<Link
+							to='/better-services'
+							onClick={() => {
+								closeMenu();
+								scrollTop();
+							}}
+						>
 							Our Services
 						</Link>
 					</li>
 
 					<li>
-						<Link to='/why-us' onClick={closeMenu}>
+						<Link
+							to='/why-us'
+							onClick={() => {
+								closeMenu();
+								scrollTop();
+							}}
+						>
 							Why Us?
 						</Link>
 					</li>
 
 					<li>
-						<Link to='/contact' onClick={closeMenu} className='cta'>
+						<Link
+							to='/contact'
+							onClick={() => {
+								closeMenu();
+								scrollTop();
+							}}
+							className='cta'
+						>
 							Contact Us
 						</Link>
 					</li>
