@@ -9,6 +9,7 @@ import VirtualAssistantIcon from '../icons/virtual-assistant-better-support.svg'
 import ContentWritingIcon from '../icons/content-writing-better-support.svg';
 import DigitalMarketingIcon from '../icons/digital-marketing-better-support.svg';
 import ContentManagementIcon from '../icons/content-management-better-support.svg';
+import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 
 import { RiSettings3Fill } from 'react-icons/ri';
 
@@ -27,6 +28,12 @@ const Services = () => {
 				</div>
 
 				<div className='services__subheading'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-1'
+					/>
+
 					<h2>Our Advantage</h2>
 
 					<h3>
@@ -61,6 +68,12 @@ const Services = () => {
 				</div>
 
 				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-2'
+					/>
+
 					<div className='service__heading customer__service'>
 						<img
 							src={CustomerServiceIcon}
@@ -123,6 +136,12 @@ const Services = () => {
 				</div>
 
 				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-3'
+					/>
+
 					<div className='service__heading digital__marketing'>
 						<img
 							src={VirtualAssistantIcon}
@@ -172,6 +191,12 @@ const Services = () => {
 				</div>
 
 				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-4'
+					/>
+
 					<div className='service__heading content__writing'>
 						<img
 							src={ContentWritingIcon}
@@ -227,6 +252,12 @@ const Services = () => {
 				</div>
 
 				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-5'
+					/>
+
 					<div className='service__heading virtual__assistant'>
 						<img
 							src={DigitalMarketingIcon}
@@ -286,6 +317,12 @@ const Services = () => {
 				</div>
 
 				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-6'
+					/>
+
 					<div className='service__heading content__management'>
 						<img
 							src={ContentManagementIcon}
