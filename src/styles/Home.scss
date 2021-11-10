@@ -1,5 +1,5 @@
 .home {
-	margin-top: 71px;
+	margin-top: 61px;
 
 	#home {
 		display: flex;
@@ -104,7 +104,7 @@
 			a {
 				display: flex;
 				align-items: center;
-				font-size: 14px;
+				font-size: 16px;
 				font-weight: 700;
 				color: white;
 				background-color: #0185d0;
@@ -117,6 +117,13 @@
 				svg {
 					font-size: 20px;
 					margin-right: 5px;
+					transition: 0.5s ease-in-out;
+				}
+
+				&:hover {
+					svg {
+						transform: rotate(360deg);
+					}
 				}
 			}
 		}
@@ -294,19 +301,22 @@
 
 			div {
 				position: relative;
-				display: flex;
-				align-items: center;
-				justify-content: flex-end;
 
-				.line {
-					background-color: #c6c6c6;
-					height: 1.5px;
-					width: 20px;
-					margin-right: 10px;
-				}
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
 
-				img {
-					width: 70px;
+					.line {
+						background-color: #c6c6c6;
+						height: 1.5px;
+						width: 20px;
+						margin-right: 10px;
+					}
+
+					img {
+						width: 70px;
+					}
 				}
 			}
 

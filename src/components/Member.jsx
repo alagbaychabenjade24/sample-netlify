@@ -44,10 +44,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>
-						Concentrix - 6 mos., JPMC - 9 yrs, GE - 2 yrs, HSBC - 2 yrs,
-						Contact World - 2 yrs, PAL - 4 mos.
-					</p>
+					<p>Operations Manager and Chief Operating Officer</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -80,7 +77,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>Bachelor of Science in Business Administration</p>
+					<p>Bachelor of Science in Hotel and Restaurant Management</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -116,7 +113,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>Band Vocalist, Genpact - 6 mos. </p>
+					<p>Genpact BPO - Collections Department</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -143,16 +140,15 @@ const Member = () => {
 					<h3 className='position'>"Accountable Lead Maestro"</h3>
 
 					<p>
-						I help make homes look "Instagrammably" better to ensure
-						smooth operational interactions.
+						I coach a team that prospects and makes deals with
+						influencers.
 					</p>
 
 					<h3 className='background'>Background</h3>
 
 					<p>
 						Technical Support Team Leader, Quality Control Team Leader,
-						Operations Supervisor, Business Analyst, Customer Service
-						Agent, Collections Agent
+						Operations Supervisor, Business Analyst
 					</p>
 
 					<h3 className='lists'>
@@ -180,18 +176,15 @@ const Member = () => {
 				</div>
 
 				<div className='member__bio'>
-					<h3 className='position'>"Accountable Lead Maestro"</h3>
+					<h3 className='position'>"Content Writing Genius"</h3>
 
-					<p>
-						I help make homes look "Instagrammably" better to ensure
-						smooth operational interactions.
-					</p>
+					<p>I am a writer. Cut me and I bleed content.</p>
 
 					<h3 className='background'>Background</h3>
 
 					<p>
-						Concentrix - 6 mos., JPMC - 9 yrs, GE - 2 yrs, HSBC - 2 yrs,
-						Contact World - 2 yrs, PAL - 4 mos.
+						Juris Doctor - University of Southeastern Philippines
+						(ongoing)
 					</p>
 
 					<h3 className='lists'>
@@ -199,11 +192,11 @@ const Member = () => {
 					</h3>
 
 					<ul>
-						<li>Digital Marketing</li>
+						<li>Creative writing</li>
 
-						<li>Multi-tasking</li>
+						<li>Event hosting</li>
 
-						<li>In-depth research </li>
+						<li>Legal advising</li>
 					</ul>
 				</div>
 			</div>
@@ -220,13 +213,14 @@ const Member = () => {
 
 					<p>
 						I am an all-rounder content strategist helping to boost Better
-						Support's online visibility.{' '}
+						Support's online visibility.
 					</p>
 
 					<h3 className='background'>Background</h3>
 
 					<p>
-						Bachelor of Science in Business Administration - Undergraduate{' '}
+						Bachelor of Science in Business Administration - University of
+						San Carlos (ongoing)
 					</p>
 
 					<h3 className='lists'>

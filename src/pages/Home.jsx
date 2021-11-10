@@ -16,7 +16,7 @@ import ScaleFasterIcon from '../icons/scale-faster-better-support.svg';
 import ScaleFasterHoverIcon from '../icons/scale-faster-hover-better-support.webp';
 import CostSavingIcon from '../icons/cost-saving-better-support.svg';
 import PetliClientLogo from '../icons/petli-better-support.png';
-import PacClientLogo from '../icons/pac-better-support.jpg';
+import PacClientLogo from '../icons/pac-better-support.png';
 import QuotationIcon from '../icons/quotation-better-support.svg';
 import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 
@@ -127,7 +127,7 @@ const Home = () => {
 
 					<Link to='/better-services'>
 						<MdSettings />
-						Shoot!
+						Read More
 					</Link>
 				</div>
 			</section>
@@ -251,12 +251,18 @@ const Home = () => {
 						</p>
 
 						<div>
-							<div className='line'></div>
+							<a
+								href='https://www.petli.app/'
+								target='_blank'
+								rel='noreferrer'
+							>
+								<div className='line'></div>
 
-							<img
-								src={PetliClientLogo}
-								alt='Testimonial Client Logo | Better Support'
-							/>
+								<img
+									src={PetliClientLogo}
+									alt='Testimonial Client Logo | Better Support'
+								/>
+							</a>
 						</div>
 
 						<img
@@ -281,12 +287,18 @@ const Home = () => {
 						</p>
 
 						<div>
-							<span className='line'></span>
+							<a
+								href='https://www.poweraware.com/en'
+								target='_blank'
+								rel='noreferrer'
+							>
+								<span className='line'></span>
 
-							<img
-								src={PacClientLogo}
-								alt='Testimonial Client Logo | Better Support'
-							/>
+								<img
+									src={PacClientLogo}
+									alt='Testimonial Client Logo | Better Support'
+								/>
+							</a>
 						</div>
 					</div>
 				</div>
