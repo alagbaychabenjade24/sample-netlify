@@ -15,6 +15,8 @@ const Navigation = () => {
 	const showMenu = () => {
 		setMenu(true);
 		setDp(true);
+
+		window.scrollTo(0, 0);
 	};
 
 	const closeMenu = () => {
