@@ -35,12 +35,9 @@ const Member = () => {
 				</div>
 
 				<div className='member__bio'>
-					<h3 className='position'>"Accountable Lead Maestro"</h3>
+					<h3 className='position'>"Founder/CEO"</h3>
 
-					<p>
-						I help make homes look "Instagrammably" better to ensure
-						smooth operational interactions.
-					</p>
+					<p>Trying to help out the team here and there.</p>
 
 					<h3 className='background'>Background</h3>
 
@@ -51,11 +48,11 @@ const Member = () => {
 					</h3>
 
 					<ul>
-						<li>Digital Marketing</li>
+						<li>Management</li>
 
-						<li>Multi-tasking</li>
+						<li>Strategy</li>
 
-						<li>In-depth research </li>
+						<li>An eye for detail</li>
 					</ul>
 				</div>
 			</div>
@@ -183,7 +180,7 @@ const Member = () => {
 					<h3 className='background'>Background</h3>
 
 					<p>
-						Juris Doctor - University of Southeastern Philippines
+						Juris Doctor <br /> - University of Southeastern Philippines
 						(ongoing)
 					</p>
 
