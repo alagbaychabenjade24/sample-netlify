@@ -16,13 +16,11 @@ const Member = () => {
 				alt='Cogwheel | Better Support'
 				className='member__cogwheel-1'
 			/>
-
 			<img
 				src={CogWheelIcon}
 				alt='Cogwheel | Better Support'
 				className='member__cogwheel-2'
 			/>
-
 			<img
 				src={CogWheelIcon}
 				alt='Cogwheel | Better Support'
@@ -152,8 +150,9 @@ const Member = () => {
 					<h3 className='background'>Background</h3>
 
 					<p>
-						Concentrix - 6 mos., JPMC - 9 yrs, GE - 2 yrs, HSBC - 2 yrs,
-						Contact World - 2 yrs, PAL - 4 mos.
+						Technical Support Team Leader, Quality Control Team Leader,
+						Operations Supervisor, Business Analyst, Customer Service
+						Agent, Collections Agent
 					</p>
 
 					<h3 className='lists'>
@@ -244,77 +243,11 @@ const Member = () => {
 				</div>
 			</div>
 
-			<div className='member'>
-				<div className='member__image'>
-					<img src='' alt='Member | Better Support' />
-
-					<h2 className='name'>Robert lee</h2>
-				</div>
-
-				<div className='member__bio'>
-					<h3 className='position'>"Accountable Lead Maestro"</h3>
-
-					<p>
-						I help make homes look "Instagrammably" better to ensure
-						smooth operational interactions.
-					</p>
-
-					<h3 className='background'>Background</h3>
-
-					<p>
-						Concentrix - 6 mos., JPMC - 9 yrs, GE - 2 yrs, HSBC - 2 yrs,
-						Contact World - 2 yrs, PAL - 4 mos.
-					</p>
-
-					<h3 className='lists'>
-						<span className='highlight'>Better</span> Superpower
-					</h3>
-
-					<ul>
-						<li>Digital Marketing</li>
-
-						<li>Multi-tasking</li>
-
-						<li>In-depth research </li>
-					</ul>
-				</div>
-			</div>
-
-			<div className='member'>
-				<div className='member__image'>
-					<img src='' alt='Member | Better Support' />
-
-					<h2 className='name'>Robert lee</h2>
-				</div>
-
-				<div className='member__bio'>
-					<h3 className='position'>"Accountable Lead Maestro"</h3>
-
-					<p>
-						I help make homes look "Instagrammably" better to ensure
-						smooth operational interactions.
-					</p>
-
-					<h3 className='background'>Background</h3>
-
-					<p>
-						Concentrix - 6 mos., JPMC - 9 yrs, GE - 2 yrs, HSBC - 2 yrs,
-						Contact World - 2 yrs, PAL - 4 mos.
-					</p>
-
-					<h3 className='lists'>
-						<span className='highlight'>Better</span> Superpower
-					</h3>
-
-					<ul>
-						<li>Digital Marketing</li>
-
-						<li>Multi-tasking</li>
-
-						<li>In-depth research </li>
-					</ul>
-				</div>
-			</div>
+			<img
+				src={CogWheelIcon}
+				alt='Cogwheel | Better Support'
+				className='member__cogwheel-4'
+			/>
 		</div>
 	);
 };
