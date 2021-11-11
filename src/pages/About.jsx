@@ -1,11 +1,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 import Member from '../components/Member';
 
 import '../styles/About.scss';
 
+import { MdSettings } from 'react-icons/md';
+
 const About = () => {
+	const scrollTop = () => window.scrollTo(0, 0);
+
 	return (
 		<>
 			<Helmet>
@@ -57,6 +62,11 @@ const About = () => {
 					</p>
 
 					<Member />
+
+					<Link to='/contact' onClick={scrollTop}>
+						<MdSettings />
+						Let's talk more!
+					</Link>
 				</div>
 			</section>
 		</>

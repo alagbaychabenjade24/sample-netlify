@@ -48,7 +48,7 @@ const Footer = () => {
 
 						<p>
 							Multinational Bancorporation Center <br />
-							6805 Ayala Ave., Makati City
+							6805 Ayala Ave., Makati City, Philippines
 						</p>
 					</a>
 				</div>

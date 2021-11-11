@@ -54,12 +54,9 @@ const Home = () => {
 						className='sa__cogwheel-2'
 					/>
 
-					<h3>
-						<span className='highlight'>Better</span> business with Better
-						Support
-					</h3>
-
-					<h2 className='section__title highlight'>Better Services</h2>
+					<h2 className='section__title'>
+						<span className='highlight'>Better</span> Services
+					</h2>
 
 					<div className='sa__services'>
 						<div className='sa__service'>
@@ -310,8 +307,8 @@ const Home = () => {
 
 			<aside>
 				<h2 className='section__title'>
-					See how you can grow <br />{' '}
-					<span className='highlight'>Better with us</span>
+					Learn more
+					<span className='highlight'> about us</span>
 				</h2>
 			</aside>
 

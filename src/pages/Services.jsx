@@ -5,8 +5,8 @@ import { Helmet } from 'react-helmet';
 import '../styles/Services.scss';
 
 import CustomerServiceIcon from '../icons/customer-service-better-support.svg';
-import VirtualAssistantIcon from '../icons/virtual-assistant-better-support.svg';
 import ContentWritingIcon from '../icons/content-writing-better-support.svg';
+import VirtualAssistantIcon from '../icons/virtual-assistant-better-support.svg';
 import DigitalMarketingIcon from '../icons/digital-marketing-better-support.svg';
 import ContentManagementIcon from '../icons/content-management-better-support.svg';
 import CogWheelIcon from '../icons/cogwheel-better-support.svg';
@@ -14,6 +14,8 @@ import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 import { RiSettings3Fill } from 'react-icons/ri';
 
 const Services = () => {
+	const scrollTop = () => window.scrollTo(0, 0);
+
 	return (
 		<>
 			<Helmet>
@@ -74,31 +76,31 @@ const Services = () => {
 						className='services__cogwheel-2'
 					/>
 
-					<div className='service__heading customer__service'>
-						<img
-							src={CustomerServiceIcon}
-							alt='Customer Service | Better Support'
-						/>
-
-						<div className='service__heading__content'>
-							<h2>Customer Service</h2>
-
-							<h3>Some of the areas we focus on:</h3>
-
-							<ul>
-								<li>Live chat support</li>
-
-								<li>Email support</li>
-
-								<li>Phone support</li>
-
-								<li>Support through social media</li>
-							</ul>
-						</div>
-					</div>
-
 					<div className='summaries'>
-						<div className='blue'>
+						<div className='col-1'>
+							<div className='gp'>
+								<img
+									src={CustomerServiceIcon}
+									alt='Customer Service | Better Support'
+								/>
+
+								<div className='service__heading__content'>
+									<h2>Customer Service</h2>
+
+									<h3>Some of the areas we focus on:</h3>
+
+									<ul>
+										<li>Live chat support</li>
+
+										<li>Email support</li>
+
+										<li>Phone support</li>
+
+										<li>Support through social media</li>
+									</ul>
+								</div>
+							</div>
+
 							<p>
 								The Philippines is the leader of great customer service,
 								so it is not a coincidence that some of the world’s best
@@ -116,7 +118,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='grey'>
+						<div className='col-2 blue'>
 							<p>
 								Better Support has long experience of handling live
 								chat-, email-, and phone support, and our agents have an
@@ -139,92 +141,37 @@ const Services = () => {
 					<img
 						src={CogWheelIcon}
 						alt='Cogwheel | Better Support'
-						className='services__cogwheel-3'
+						className='services__cogwheel-2'
 					/>
 
-					<div className='service__heading digital__marketing'>
-						<img
-							src={VirtualAssistantIcon}
-							alt='Virtual Assistant | Better Support'
-						/>
-
-						<div className='service__heading__content'>
-							<h2>Digital Marketing</h2>
-
-							<h3>
-								Our focus within Digital Marketing is concentrated on:
-							</h3>
-
-							<ul>
-								<li>SEO/SEM Marketing</li>
-
-								<li>Influencer Marketing</li>
-
-								<li>Social Media Management</li>
-
-								<li>Affiliate Marketing</li>
-							</ul>
-						</div>
-					</div>
-
 					<div className='summaries'>
-						<div className='blue'>
-							<p>
-								Just like how Better Support is a workplace using the
-								latest technologies, we like to offer the newest in
-								Digital Marketing as well. We thrive in working in
-								fast-paced environments where marketing efforts are
-								meticulously measured and satisfactory results are
-								ensured.
-							</p>
-						</div>
+						<div className='col-1'>
+							<div className='gp'>
+								<img
+									src={ContentWritingIcon}
+									alt='Content Writing | Better Support'
+								/>
 
-						<div className='grey'>
-							<p>
-								We have helped various companies with their Digital
-								Marketing needs. We have provided support not only on a
-								short-term basis such as shorter campaigns and
-								promotions, but also on more long-term concepts.
-							</p>
-						</div>
-					</div>
-				</div>
+								<div className='service__heading__content'>
+									<h2>Content Writing</h2>
 
-				<div className='service'>
-					<img
-						src={CogWheelIcon}
-						alt='Cogwheel | Better Support'
-						className='services__cogwheel-4'
-					/>
+									<h3>
+										Better Support has experience with many types of
+										content, such as writing for:
+									</h3>
 
-					<div className='service__heading content__writing'>
-						<img
-							src={ContentWritingIcon}
-							alt='Content Writing | Better Support'
-						/>
+									<ul>
+										<li>Articles for magazines</li>
 
-						<div className='service__heading__content'>
-							<h2>Content Writing</h2>
+										<li>Blogs</li>
 
-							<h3>
-								Better Support has experience with many types of
-								content, such as writing for:
-							</h3>
+										<li>Short-form copywriting</li>
 
-							<ul>
-								<li>Articles for magazines</li>
+										<li>Product descriptions</li>
+									</ul>
+								</div>
+							</div>
 
-								<li>Blogs</li>
-
-								<li>Short-form copywriting</li>
-
-								<li>Product descriptions</li>
-							</ul>
-						</div>
-					</div>
-
-					<div className='summaries'>
-						<div className='blue'>
 							<p>
 								Content Writing, estimated to be a $400 billion dollar
 								industry, is insanely growing. Content is King and that
@@ -236,7 +183,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='grey'>
+						<div className='col-2 grey'>
 							<p>
 								Perhaps you only need someone on a part-time basis, or
 								you need content about a very niched product/service?
@@ -255,41 +202,41 @@ const Services = () => {
 					<img
 						src={CogWheelIcon}
 						alt='Cogwheel | Better Support'
-						className='services__cogwheel-5'
+						className='services__cogwheel-2'
 					/>
 
-					<div className='service__heading virtual__assistant'>
-						<img
-							src={DigitalMarketingIcon}
-							alt='Digital Marketing | Better Support'
-						/>
-
-						<div className='service__heading__content'>
-							<h2>Virtual Assistant</h2>
-
-							<h3>
-								Some of the things your dedicated Virtual Assistant can
-								do for you:
-							</h3>
-
-							<ul>
-								<li>Answer emails</li>
-
-								<li>Update social media pages</li>
-
-								<li>Write content</li>
-
-								<li>Lead Generation</li>
-
-								<li>Appointment setting</li>
-
-								<li>Handle Excel sheets</li>
-							</ul>
-						</div>
-					</div>
-
 					<div className='summaries'>
-						<div className='blue'>
+						<div className='col-1'>
+							<div className='gp'>
+								<img
+									src={VirtualAssistantIcon}
+									alt='Virtual Assistant | Better Support'
+								/>
+
+								<div className='service__heading__content'>
+									<h2>Virtual Assistant</h2>
+
+									<h3>
+										Some of the things your dedicated Virtual
+										Assistant can do for you:
+									</h3>
+
+									<ul>
+										<li>Answer emails</li>
+
+										<li>Update social media pages </li>
+
+										<li>Write content</li>
+
+										<li>Lead Generation</li>
+
+										<li>Appointment setting</li>
+
+										<li>Handle Excel sheets</li>
+									</ul>
+								</div>
+							</div>
+
 							<p>
 								Virtual assistants are the Swiss Army Knife solution
 								when you need help with more than one particular
@@ -299,7 +246,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='grey'>
+						<div className='col-2 blue'>
 							<p>
 								Perhaps you have felt that there are job tasks that you
 								don't always have time for? In many cases, businesses
@@ -320,35 +267,91 @@ const Services = () => {
 					<img
 						src={CogWheelIcon}
 						alt='Cogwheel | Better Support'
-						className='services__cogwheel-6'
+						className='services__cogwheel-2'
 					/>
 
-					<div className='service__heading content__management'>
-						<img
-							src={ContentManagementIcon}
-							alt='Content Management | Better Support'
-						/>
+					<div className='summaries'>
+						<div className='col-1'>
+							<div className='gp'>
+								<img
+									src={DigitalMarketingIcon}
+									alt='Digital Marketing | Better Support'
+								/>
 
-						<div className='service__heading__content'>
-							<h2>Content Management</h2>
+								<div className='service__heading__content'>
+									<h2>Digital Marketing</h2>
 
-							<h3>
-								We have long experience handling different types of
-								content & data such as:
-							</h3>
+									<h3>
+										Our focus within Digital Marketing is concentrated
+										on:
+									</h3>
 
-							<ul>
-								<li>Product listings</li>
+									<ul>
+										<li>SEO/SEM Marketing</li>
 
-								<li>Backoffice uploading</li>
+										<li>Influencer Marketing</li>
 
-								<li>Excel management</li>
-							</ul>
+										<li>Social Media Management</li>
+
+										<li>Affiliate Marketing</li>
+									</ul>
+								</div>
+							</div>
+
+							<p>
+								Just like how Better Support is a workplace using the
+								latest technologies, we like to offer the newest in
+								Digital Marketing as well. We thrive in working in
+								fast-paced environments where marketing efforts are
+								meticulously measured and satisfactory results are
+								ensured.
+							</p>
+						</div>
+
+						<div className='col-2 grey'>
+							<p>
+								We have helped various companies with their Digital
+								Marketing needs. We have provided support not only on a
+								short-term basis such as shorter campaigns and
+								promotions, but also on more long-term concepts.
+							</p>
 						</div>
 					</div>
+				</div>
+
+				<div className='service'>
+					<img
+						src={CogWheelIcon}
+						alt='Cogwheel | Better Support'
+						className='services__cogwheel-2'
+					/>
 
 					<div className='summaries'>
-						<div className='blue'>
+						<div className='col-1'>
+							<div className='gp'>
+								<img
+									src={ContentManagementIcon}
+									alt='Content Management | Better Support'
+								/>
+
+								<div className='service__heading__content'>
+									<h2>Content Management</h2>
+
+									<h3>
+										We have long experience handling different types
+										of content & data such as:
+									</h3>
+
+									<ul>
+										<li>Product listings</li>
+
+										<li>Backoffice uploading</li>
+
+										<li>Excel management</li>
+									</ul>
+								</div>
+							</div>
+
 							<p>
 								Content and data management are essential processes for
 								many businesses, but they are often time-consuming. This
@@ -356,7 +359,7 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className='grey'>
+						<div className='col-2 blue'>
 							<p>
 								We understand the importance of treating your data with
 								sensitivity and caution, and you can rest assured that
@@ -366,8 +369,8 @@ const Services = () => {
 					</div>
 				</div>
 
-				<Link to='/contact'>
-					<RiSettings3Fill /> Let's talk more!
+				<Link to='/why-us' onClick={scrollTop}>
+					<RiSettings3Fill /> Meet the Team
 				</Link>
 			</section>
 		</>

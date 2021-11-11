@@ -30,34 +30,6 @@ const Member = () => {
 
 			<div className='member'>
 				<div className='member__image'>
-					<img src={JohanJedakerProfile} alt='Member | Better Support' />
-				</div>
-
-				<div className='member__bio'>
-					<h3 className='position'>"Founder/CEO"</h3>
-
-					<p>Trying to help out the team here and there.</p>
-
-					<h3 className='background'>Background</h3>
-
-					<p>Operations Manager and Chief Operating Officer</p>
-
-					<h3 className='lists'>
-						<span className='highlight'>Better</span> Superpower
-					</h3>
-
-					<ul>
-						<li>Management</li>
-
-						<li>Strategy</li>
-
-						<li>An eye for detail</li>
-					</ul>
-				</div>
-			</div>
-
-			<div className='member'>
-				<div className='member__image'>
 					<img src={PiousRiveraProfile} alt='Member | Better Support' />
 				</div>
 
@@ -89,6 +61,37 @@ const Member = () => {
 
 			<div className='member'>
 				<div className='member__image'>
+					<img src={EloisaTurlaProfile} alt='Member | Better Support' />
+				</div>
+
+				<div className='member__bio'>
+					<h3 className='position'>"Content Marketing Wizard"</h3>
+
+					<p>
+						I am an all-rounder content strategist specializing in
+						boosting online visibility.
+					</p>
+
+					<h3 className='background'>Background</h3>
+
+					<p>Bachelor of Science in Business Administration</p>
+
+					<h3 className='lists'>
+						<span className='highlight'>Better</span> Superpower
+					</h3>
+
+					<ul>
+						<li>Digital Marketing</li>
+
+						<li>Multi-tasking</li>
+
+						<li>In-depth research </li>
+					</ul>
+				</div>
+			</div>
+
+			<div className='member'>
+				<div className='member__image'>
 					<img
 						src={MyraferBertulfoProfile}
 						alt='Member | Better Support'
@@ -105,7 +108,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>Genpact BPO - Collections Department</p>
+					<p>Collections Department</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -136,10 +139,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>
-						Technical Support Team Leader, Quality Control Team Leader,
-						Operations Supervisor, Business Analyst
-					</p>
+					<p>Operations Supervisor, Business Analyst</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -170,10 +170,7 @@ const Member = () => {
 
 					<h3 className='background'>Background</h3>
 
-					<p>
-						Juris Doctor <br /> - University of Southeastern Philippines
-						(ongoing)
-					</p>
+					<p>Juris Doctor - Law</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
@@ -191,34 +188,28 @@ const Member = () => {
 
 			<div className='member'>
 				<div className='member__image'>
-					<img src={EloisaTurlaProfile} alt='Member | Better Support' />
+					<img src={JohanJedakerProfile} alt='Member | Better Support' />
 				</div>
 
 				<div className='member__bio'>
-					<h3 className='position'>"Content Marketing Wizard"</h3>
+					<h3 className='position'>"Founder/CEO"</h3>
 
-					<p>
-						I am an all-rounder content strategist helping to boost Better
-						Support's online visibility.
-					</p>
+					<p>Trying to help out the team here and there.</p>
 
 					<h3 className='background'>Background</h3>
 
-					<p>
-						Bachelor of Science in Business Administration <br /> -
-						University of San Carlos (ongoing)
-					</p>
+					<p>Operations Manager and Chief Operating Officer</p>
 
 					<h3 className='lists'>
 						<span className='highlight'>Better</span> Superpower
 					</h3>
 
 					<ul>
-						<li>Digital Marketing</li>
+						<li>Management</li>
 
-						<li>Multi-tasking</li>
+						<li>Strategy</li>
 
-						<li>In-depth research </li>
+						<li>An eye for detail</li>
 					</ul>
 				</div>
 			</div>

@@ -140,6 +140,33 @@
 				}
 			}
 		}
+
+		a {
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+			font-weight: 700;
+			color: white;
+			background-color: #0185d0;
+			border: none;
+			border-radius: 5px;
+			width: max-content;
+			padding: 8px 15px;
+			margin: 100px auto;
+			cursor: pointer;
+
+			svg {
+				font-size: 20px;
+				margin-right: 5px;
+				transition: 0.5s ease-in-out;
+			}
+
+			&:hover {
+				svg {
+					transform: rotate(360deg);
+				}
+			}
+		}
 	}
 }
 
