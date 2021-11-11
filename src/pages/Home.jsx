@@ -117,7 +117,9 @@ const Home = () => {
 							</h3>
 						</div>
 					</div>
+				</div>
 
+				<div className='group'>
 					<p>
 						Finding quality outsourcing support services is hard. We get
 						it. So here at Better Support, we want to be an extension of
@@ -126,12 +128,12 @@ const Home = () => {
 					</p>
 
 					<p>Better for you is better for us.</p>
-
-					<Link to='/better-services' onClick={scrollTop}>
-						<MdSettings />
-						Read More
-					</Link>
 				</div>
+
+				<Link to='/better-services' onClick={scrollTop}>
+					<MdSettings />
+					Read More
+				</Link>
 			</section>
 
 			<section className='lo'>

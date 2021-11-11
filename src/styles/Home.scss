@@ -33,14 +33,12 @@
 	}
 
 	.sa {
-		display: flex;
 		width: 90%;
 		max-width: 1200px;
 		margin: 100px auto;
 
 		&__content {
 			position: relative;
-			margin-right: 50px;
 
 			.sa__cogwheel-1 {
 				position: absolute;
@@ -90,40 +88,42 @@
 					}
 				}
 			}
+		}
+
+		.group {
+			width: 100%;
+			max-width: 750px;
 
 			p {
 				font-size: 18px;
 				font-weight: 500;
 				line-height: 1.5;
+				margin: 15px 0;
+			}
+		}
 
-				&:nth-of-type(2) {
-					margin: 15px 0;
-				}
+		a {
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+			font-weight: 700;
+			color: white;
+			background-color: #0185d0;
+			border: none;
+			border-radius: 5px;
+			width: max-content;
+			padding: 8px 15px;
+			cursor: pointer;
+
+			svg {
+				font-size: 20px;
+				margin-right: 5px;
+				transition: 0.5s ease-in-out;
 			}
 
-			a {
-				display: flex;
-				align-items: center;
-				font-size: 16px;
-				font-weight: 700;
-				color: white;
-				background-color: #0185d0;
-				border: none;
-				border-radius: 5px;
-				width: max-content;
-				padding: 8px 15px;
-				cursor: pointer;
-
+			&:hover {
 				svg {
-					font-size: 20px;
-					margin-right: 5px;
-					transition: 0.5s ease-in-out;
-				}
-
-				&:hover {
-					svg {
-						transform: rotate(360deg);
-					}
+					transform: rotate(360deg);
 				}
 			}
 		}
