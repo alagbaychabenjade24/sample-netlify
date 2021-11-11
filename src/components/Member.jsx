@@ -5,6 +5,7 @@ import PiousRiveraProfile from '../images/pious-rivera-better-support.webp';
 import ChedelynTabalbaProfile from '../images/chedelyn-tabalba-better-support.webp';
 import EloisaTurlaProfile from '../images/eloisa-turla-better-support.webp';
 import RobertLeeProfile from '../images/robert-lee-better-support.webp';
+import JohanJedakerProfile from '../images/johan-jedaker-better-support.webp';
 
 import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 
@@ -29,9 +30,7 @@ const Member = () => {
 
 			<div className='member'>
 				<div className='member__image'>
-					<img src='' alt='Member | Better Support' />
-
-					<h2 className='name'>Johan Jedaker</h2>
+					<img src={JohanJedakerProfile} alt='Member | Better Support' />
 				</div>
 
 				<div className='member__bio'>
@@ -60,8 +59,6 @@ const Member = () => {
 			<div className='member'>
 				<div className='member__image'>
 					<img src={PiousRiveraProfile} alt='Member | Better Support' />
-
-					<h2 className='name'>PIOUS RIVERA</h2>
 				</div>
 
 				<div className='member__bio'>
@@ -96,8 +93,6 @@ const Member = () => {
 						src={MyraferBertulfoProfile}
 						alt='Member | Better Support'
 					/>
-
-					<h2 className='name'>Myrafer Bertulfo</h2>
 				</div>
 
 				<div className='member__bio'>
@@ -129,8 +124,6 @@ const Member = () => {
 			<div className='member'>
 				<div className='member__image'>
 					<img src={RobertLeeProfile} alt='Member | Better Support' />
-
-					<h2 className='name'>Robert lee</h2>
 				</div>
 
 				<div className='member__bio'>
@@ -168,8 +161,6 @@ const Member = () => {
 						src={ChedelynTabalbaProfile}
 						alt='Member | Better Support'
 					/>
-
-					<h2 className='name'>Chedelyn Tabalba</h2>
 				</div>
 
 				<div className='member__bio'>
@@ -201,8 +192,6 @@ const Member = () => {
 			<div className='member'>
 				<div className='member__image'>
 					<img src={EloisaTurlaProfile} alt='Member | Better Support' />
-
-					<h2 className='name'>Eloisa Turla</h2>
 				</div>
 
 				<div className='member__bio'>
@@ -216,8 +205,8 @@ const Member = () => {
 					<h3 className='background'>Background</h3>
 
 					<p>
-						Bachelor of Science in Business Administration - University of
-						San Carlos (ongoing)
+						Bachelor of Science in Business Administration <br /> -
+						University of San Carlos (ongoing)
 					</p>
 
 					<h3 className='lists'>

@@ -23,6 +23,8 @@ import CogWheelIcon from '../icons/cogwheel-better-support.svg';
 import { MdSettings } from 'react-icons/md';
 
 const Home = () => {
+	const scrollTop = () => window.scrollTo(0, 0);
+
 	return (
 		<div className='home'>
 			<section id='home'>
@@ -125,7 +127,7 @@ const Home = () => {
 
 					<p>Better for you is better for us.</p>
 
-					<Link to='/better-services'>
+					<Link to='/better-services' onClick={scrollTop}>
 						<MdSettings />
 						Read More
 					</Link>
@@ -327,7 +329,7 @@ const Home = () => {
 						opportunities to talented young professionals.
 					</p>
 
-					<Link to='about-us'>
+					<Link to='why-us' onClick={scrollTop}>
 						<MdSettings /> Read More
 					</Link>
 				</div>
