@@ -14,7 +14,7 @@ const About = () => {
 	return (
 		<>
 			<Helmet>
-				<title>Contact Us — Better Support</title>
+				<title>Why Us — Better Support</title>
 			</Helmet>
 
 			<section className='about'>

@@ -28,7 +28,6 @@ const Services = () => {
 						<span className='highlight'>Better</span> Services
 					</h1>
 				</div>
-
 				<div className='services__subheading'>
 					<img
 						src={CogWheelIcon}
@@ -68,7 +67,6 @@ const Services = () => {
 						employees will give us satisfied clients too.
 					</p>
 				</div>
-
 				<div className='service'>
 					<img
 						src={CogWheelIcon}
@@ -136,7 +134,6 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-
 				<div className='service'>
 					<img
 						src={CogWheelIcon}
@@ -197,7 +194,6 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-
 				<div className='service'>
 					<img
 						src={CogWheelIcon}
@@ -262,7 +258,6 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-
 				<div className='service'>
 					<img
 						src={CogWheelIcon}
@@ -318,7 +313,6 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-
 				<div className='service'>
 					<img
 						src={CogWheelIcon}
@@ -368,7 +362,6 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-
 				<Link to='/why-us' onClick={scrollTop}>
 					<RiSettings3Fill /> Meet the Team
 				</Link>
